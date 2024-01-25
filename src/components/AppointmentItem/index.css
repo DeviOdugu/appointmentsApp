@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.list {
+  list-style-type: none;
+  background-color: transparent;
+  border: solid #b5b7c4 1px;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 20px;
+}
+.c {
+  display: flex;
+  justify-content: space-between;
+}
+.star-image {
+  margin-top: 15px;
+}
+.title {
+  color: #171f46;
+  font-size: 13px;
+  font-weight: 700;
+}
+.date {
+  color: #b5b7c4;
+  font-size: 13px;
+  padding-right: 35px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 576px) {
+  .date {
+    font-size: 10px;
+  }
+}

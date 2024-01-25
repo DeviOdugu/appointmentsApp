@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  margin: 40px;
+  padding: 40px;
+  font-family: 'Roboto';
+}
+.card-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+}
+.a {
+  display: flex;
+  justify-content: space-between;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #171f46;
+  font-size: 20px;
+}
+.title-label {
+  font-size: 10px;
+  padding-bottom: 5px;
+}
+.title-input {
+  font-size: 12px;
+  padding: 5px;
+  padding-right: 100px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.date-label {
+  font-size: 10px;
+  padding-bottom: 5px;
+}
+.date-input {
+  font-size: 12px;
+  padding: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-size: 8px;
+  border: none;
+  margin-right: 220px;
+  padding: 5px;
+  border-radius: 4px;
+}
+.b {
+  display: flex;
+  justify-content: space-between;
+}
+.apt {
+  font-size: 15px;
+  color: #171f46;
+}
+.starred-button {
+  background-color: #9897f0;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: 15px;
+  border: none;
+  font-size: 8px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.starred {
+  border: solid #9897f0 2px;
+  background-color: transparent;
+  color: #9897f0;
+  border-radius: 10px;
+  margin: 15px;
+  font-size: 8px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+  .title-input {
+    padding-right: 0px;
+    margin-right: 35px;
+  }
+  .date-input {
+    margin-right: 35px;
+  }
+}
